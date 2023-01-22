@@ -1,0 +1,141 @@
+body{ /* css for the body */
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul{ /* css for the nav bar unordered list */
+    margin: 0px;
+    padding: 0px 150px;
+    background-color: rgb(75, 75, 75);
+    list-style-type: none;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+li{ /* css for all the items in the nav bar */
+    float: left;
+}
+
+li a{ /* css for all the links in the nav bar */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+li a:hover{ /* css for all the links in the nav bar on hover */
+    background-color: rgb(54, 54, 54);
+}
+
+li#logo{ /* css for logo item */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+#logopic{ /* css for logo picture sizing */
+    width: 100px;
+    height: 75px;
+    margin: -30px -25px;
+}
+
+#sciencecalc{ /* css for the scientific calculator button in the nav bar */
+    background-color: rgb(11, 52, 105);
+}
+
+button{ /* css for all buttons */
+    background-color:  rgb(11, 52, 105);
+    border-radius: 10px;
+    border-color: rgb(30,30,30);
+    color: white;
+}
+
+td{ /* css for all the table cells */
+    padding: 5px 0px;
+}
+
+input{ /* css for the input box */
+    font-size: 20px;
+}
+
+.center{ /* css for centered items */
+    width: 50%;
+}
+
+table{ /* css for scientific calculator table */
+    border: solid 4px rgb(30,30,30);
+    border-radius: 20px;
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+}
+
+div#scicalc{  /* css for scientifc calculator div */
+    margin:auto;
+    width: 30%;
+}
+
+#DEL{ /* css for the del button */
+    background-color: red;
+}
+
+#AC{ /* css for the ac button */
+    background-color: red;
+}
+
+.smallButtons{ /* css for all the smaller buttons */
+    width: 50px;
+    height: 30px;
+}
+
+.trig{ /* css for all the trig buttons */
+    width: 50px;
+    height: 30px;
+}
+
+#trigMode{ /* css for the trigmode button */
+    width: 70px;
+    height: 30px;
+}
+
+.bigButtons{ /* css for all the big buttons */
+    width: 70px;
+    height: 35px;
+}
+
+#footer{
+    border: none; /*  rgb(11, 52, 105); rgb(75, 75, 75);*/
+    background-color: rgb(75, 75, 75);
+    width: 99%;
+    height: 60px;
+    bottom: 0px;
+    position: absolute;
+  }
+  
+  #credits{
+    padding: 7px 0px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  #innerline{
+    border: 1px solid rgb(100, 100, 100);
+    width: 100%;
+  }
+  
+  #outerline{
+    padding: 0px 150px;
+  }
+  
+  #corporation{
+    color: white;
+    font-size: 13px;
+    padding: 7px 0px;
+    text-align: center; 
+  }

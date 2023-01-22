@@ -1,0 +1,203 @@
+body{ /* css for body */
+  font-size: 25px;
+}
+
+ul{  /* css for unordered list of the navigation bar */
+  margin: 0px;
+  padding: 0px 150px;
+  background-color: rgb(75, 75, 75);
+  list-style-type: none;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+li{/* css for general list items including logo and webpage links*/    
+  float: left;
+}
+
+li a{ /* css for all the webpages links in the nav bar */
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+
+li a:hover{ /* css for the nav bar links on hover */
+  background-color: rgb(54, 54, 54);
+}
+
+li#logo{ /* css for the logo */
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+
+#logopic{ /* css for the logo picture */
+  width: 100px;
+  height: 75px;
+  margin: -30px -25px;
+}
+
+#homepage{/* css for the homepage button in the nav bar */
+  background-color: rgb(11, 52, 105);
+}
+
+.css-typing{/* css for the introduction paragraph */
+  padding: 0px 150px;
+}
+
+.css-typing p { /* css for every individual paragraph in the css-typing div */
+border-right: .15em solid rgb(11, 52, 105);;
+font-family: "Courier";
+font-size: 16px;
+white-space: nowrap;
+overflow: hidden;
+}
+.css-typing p:nth-child(1) {  /* css and animations for paragraph 1 */
+width: 24em;
+-webkit-animation: type2 2s steps(40, end);
+animation: type2 2s steps(40, end);
+-webkit-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {  /* css and animations for paragraph 2 */
+width: 24em;
+opacity: 0;
+-webkit-animation: type2 2s steps(40, end);
+animation: type2 2s steps(40, end);
+-webkit-animation-delay: 2s;
+animation-delay: 2s;
+-webkit-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {  /* css and animations for paragraph 3 */
+width: 28em;
+opacity: 0;
+-webkit-animation: type2 2s steps(40, end);
+animation: type2 2s steps(40, end);
+-webkit-animation-delay: 4s;
+animation-delay: 4s;
+-webkit-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(4) {  /* css and animations for paragraph 4 */
+width: 35.5em;
+opacity: 0;
+-webkit-animation: type2 2s steps(40, end);
+animation: type2 2s steps(40, end);
+-webkit-animation-delay: 6s;
+animation-delay: 6s;
+-webkit-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(5) {  /* css and animations for paragraph 5 */
+width: 33.5em;
+opacity: 0;
+-webkit-animation: type2 2s steps(40, end);
+animation: type2 2s steps(40, end);
+-webkit-animation-delay: 8s;
+animation-delay: 8s;
+-webkit-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(6) {  /* css and animations for paragraph 6 */
+width: 24em;
+opacity: 0;
+-webkit-animation: type2 2s steps(40, end);
+animation: type2 2s steps(40, end);
+-webkit-animation-delay: 10s;
+animation-delay: 10s;
+-webkit-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
+}
+
+
+@keyframes type2 {/* animation code */
+0% {
+  width: 0;
+}
+1% {
+  opacity: 1;
+}
+99.9% {
+  border-right: .15em solid rgb(11, 52, 105);
+}
+100% {
+  opacity: 1;
+  border: none;
+}
+}
+
+@-webkit-keyframes type2 {/* animation code between frames */
+0% {
+  width: 0;
+}
+1% {
+  opacity: 1;
+}
+99.9% {
+  border-right: .15em solid rgb(11, 52, 105);
+}
+100% {
+  opacity: 1;
+  border: none;
+}
+}
+
+#footer{
+  border: none; /*  rgb(11, 52, 105); rgb(75, 75, 75);*/
+  background-color: rgb(75, 75, 75);
+  width: 99%;
+  height: 60px;
+  bottom: 0px;
+  position: absolute;
+}
+
+#credits{
+  padding: 7px 0px;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+}
+
+#innerline{
+  border: 1px solid rgb(100, 100, 100);
+  width: 100%;
+}
+
+#outerline{
+  padding: 0px 150px;
+}
+
+#corporation{
+  color: white;
+  font-size: 13px;
+  padding: 7px 0px;
+  text-align: center; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

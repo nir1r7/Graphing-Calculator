@@ -1,0 +1,131 @@
+body{ /* css for body */
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul{ /* css for nav bar list */
+    margin: 0px;
+    padding: 0px 150px;
+    background-color: rgb(75, 75, 75);
+    list-style-type: none;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+li{ /* css for all nav bar items */
+    float: left;
+}
+
+li a{ /* css for all nav bar links */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+li a:hover{ /* css for all nav bar links on hover */
+    background-color: rgb(54, 54, 54);
+}
+
+li#logo{ /* css for the logo position */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+#logopic{ /* css for the logo size */
+    width: 100px;
+    height: 75px;
+    margin: -30px -25px;
+}
+
+#graphingcalc{ /* css for the graphingcalc button in the nav bar */
+    background-color: rgb(11, 52, 105);
+}
+
+input{ /* css for all input boxes */
+    font-size: large;
+}
+
+input[type=text]:focus { /* css for all input boxes when clicked */
+  background-color: rgb(200, 200, 200);
+  border: 3px solid rgb(11, 52, 105);
+}
+
+::placeholder{ /* css for all input boxes placeholders */
+    color: silver;
+}
+
+#displaybody{ /* css for all elements other than the nav bar */
+    padding-left: 150px;
+}
+
+#fullinputbox{ /* css for the the input box */
+    height: 610px;
+    border-left: 3px solid rgb(11, 52, 105);
+    float: left;
+}
+
+#inputbox{ /* css for the input box table */
+    padding: 5px 5px;
+    border-spacing: 5px;
+    font-size: 19px;
+}
+
+#newbox{ /* css for the new box button */
+    padding: 2px 6px;
+    float: left;
+}
+
+#newboxpadding{ /* css for the outer section of the new box button */
+    padding-left: 12px;
+}
+
+.coloroptions{
+    text-align: center;
+}
+
+#canvasId{ /* css for the canvas */
+    float: left;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align:center;
+}
+
+#footer{
+    border: none; /*  rgb(11, 52, 105); rgb(75, 75, 75);*/
+    background-color: rgb(75, 75, 75);
+    width: 99%;
+    height: 60px;
+    bottom: 0px;
+    position: absolute;
+  }
+  
+  #credits{
+    padding: 7px 0px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  #innerline{
+    border: 1px solid rgb(100, 100, 100);
+    width: 100%;
+  }
+  
+  #outerline{
+    padding: 0px 150px;
+  }
+  
+  #corporation{
+    color: white;
+    font-size: 13px;
+    padding: 7px 0px;
+    text-align: center; 
+  }
+

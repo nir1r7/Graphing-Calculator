@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8"> 
+    <title>Elite Calculator</title>
+    <link id = "icn" rel="icon" href="duck2.png" type="image/x-icon"/> <!-- links the logo -->
+    <link rel="stylesheet" href="Scientific_Calculator.css"> <!-- links the scientifc calculator -->
+</head>
+<body>
+    <div>
+        <ul id = "navBar">  <!-- nav bar unoredered list -->
+            <li id="logo">  <!-- logo list item -->
+                <img id="logopic" src="duck.png" alt="Ducky \_o_/">  <!-- logo picture -->
+            </li>
+            <li id="homepage"><a href="HomePage.html">Home</a></li>  <!-- homepage link -->
+            <li id="graphingcalc"><a href="ISP_GraphingCalculator.html">Graphing Calculator</a></li> <!-- graphing calculator link -->
+            <li id="sciencecalc"><a href="Scientific_Calculator.html">Scientific Calculator</a></li>  <!-- scientific calculator link -->
+        </ul>
+    </div>
+    <br>
+    <div id ="scicalc">  <!-- scientific calculator div -->
+        <table>
+            <tr>
+                <td colspan="5"><input type = text, id = "textbox" size= "30"></td>  <!-- input box for the calculator -->
+                
+            </tr>
+            <tr>  <!-- different mode buttons -->
+                <td><button id = "trigMode"> deg/rad</button></td> 
+                <td><button id = "shift" class="smallButtons">Shift</button></td>
+
+            </tr>
+            <tr>  <!-- small buttons-1 -->
+                <td><button id = "abs" class="smallButtons"> |x|</button></td>
+                <td><button id = "cubed" class="smallButtons"> x<sup>3</sup></button></td>
+                <td><button id ="-1" class="smallButtons">x<sup>-1</sup></button></td>
+                <td><button id = "sqrt" class="smallButtons">sqrt</button></td>
+                <td><button id = "10^" class="smallButtons">10^</button></td>
+
+
+            </tr>
+            <tr>  <!-- small buttons-2 -->                   
+                <td><button id = square class="smallButtons">x<sup>2</sup></button></td>
+                <td><button id = "pow" class="smallButtons">x<sup>y</sup></button></td>
+                <td><button id = "log10" class="smallButtons">log</button></td>
+                <td><button id = "ln" class="smallButtons"> ln</button></td>
+                <td><button id = "(-)" class="smallButtons">(-)</button></td>
+
+            </tr>
+            <tr>  <!-- trig functions and brackets -->
+                <td><button id = "sin" class="trig">sin/<sup>-1</sup></button></td>
+                <td><button id = "cos" class="trig">cos/<sup>-1</sup></button></td>
+                <td><button id = "tan" class="trig">tan/<sup>-1</sup></button></td>
+                <td><button id = "(" class="smallButtons">(</button></td>
+                <td><button id = ")" class="smallButtons">)</button></td>
+            </tr>
+            <tr>  <!-- big buttons and simple operations-1 -->
+                <td><button id="1" class="bigButtons"> 1 </button></td>
+                <td><button id="2" class="bigButtons"> 2 </button></td>
+                <td><button id="3" class="bigButtons"> 3 </button></td>
+                <td><button id="DEL" class="bigButtons"> DEL </button></td>
+                <td><button id="AC" class="bigButtons"> AC </button></td>
+            </tr>
+            <tr> <!-- big buttons and simple operations-2 -->
+                <td><button id="4" class="bigButtons"> 4 </button></td>
+                <td><button id="5" class="bigButtons"> 5 </button></td>
+                <td><button id="6" class="bigButtons"> 6 </button></td>
+                <td><button id="x" class="bigButtons"> x </button></td>
+                <td><button id="/" class="bigButtons"> / </button></td>
+
+            </tr>
+            <tr> <!-- big buttons and simple operations-3 -->
+                <td><button id="7" class="bigButtons"> 7 </button></td>
+                <td><button id="8" class="bigButtons"> 8 </button></td>
+                <td><button id="9" class="bigButtons"> 9 </button></td>
+                <td><button id="+" class="bigButtons"> + </button></td>
+                <td><button id="-" class="bigButtons"> - </button></td>
+
+
+            </tr>
+            <tr> <!-- big buttons and simple operations-4 -->
+                <td><button id="0" class="bigButtons"> 0 </button></td>
+                <td><button id="." class="bigButtons"> . </button></td>
+                <td><button id="pi" class="bigButtons">π</button></td>
+                <td><button id="Ans" class="bigButtons">Ans</button></td>
+                <td><button id="=" class="bigButtons"> = </button></td>               
+            </tr>
+        </table>
+    </div>
+    <div id="footer">
+        <div id="credits">
+            <b>Nirvan Rabbani &nbsp; • &nbsp; Alex Li &nbsp; • &nbsp; Leo Yi</b>
+        </div>
+        <div id="outerline"><div id="innerline"></div></div>
+        <div id="corporation">
+            <b>Duck inc. &nbsp; 2023</b>
+        </div>
+    </div>
+    <script src="Scientific_Calculator.js"></script> <!-- imports the java script file -->
+</body>

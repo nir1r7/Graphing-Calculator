@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html language="en"><!--start of html set language to English-->
+    <!--start of head-->
+    <head>
+        <meta charset="utf-8"> 
+        <title>Elite Calculator</title>
+        <link id = "icn" rel="icon" href="duck2.png" type="image/x-icon"/> <!-- links our logo -->
+        <link rel="stylesheet" href="ISP_GraphingCalculator.css"> <!-- links the css stylesheet -->
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> 
+        <script src="all.min.js"></script>
+    </head>
+    <!--start of body-->
+    <body>
+        <div>
+            <ul id = "navBar"> <!-- nav bar unordered list -->
+                <li id="logo">
+                    <img id="logopic" src="duck.png" alt="Ducky \_o_/"> <!-- logo picture -->
+                </li>
+                <li id="homepage" onclick='alert("Are you sure want to leave this page? Your changes may not be saved.")'><a href="HomePage.html">Home</a></li> <!-- homepage link -->
+                <li id="graphingcalc"><a href="ISP_GraphingCalculator.html">Graphing Calculator</a></li> <!-- graphing calculator link -->
+                <li id="sciencecalc" onclick='alert("Are you sure want to leave this page? Your changes may not be saved.")'><a href="Scientific_Calculator.html">Scientific Calculator</a></li> <!-- scientific calculator link -->
+            </ul>
+        </div>
+        <div id="displaybody">
+            <!--Start of Divider-->
+            <br>
+            <div id="fullinputbox"> <!-- input box div -->
+                <table id="inputbox" width="20%"> <!-- input box table -->
+                    <tr>
+                        <th>Enter your function:</th> <!-- title of table -->
+                    </tr>
+                    <tr>
+                        <td><input id='0' type='text' placeholder='Type here'></td>
+                        <td id=’trash’></td> <!-- first inputbox -->
+                    </tr>
+                </table>
+                <div id="newboxpadding">
+                    <button id="newbox">+</button> <!-- new box button -->
+                </div>
+            </div><!--End of Divider-->
+
+            <div>
+                <td><canvas id="canvasId" width="1002" height="600"></canvas></td> <!-- creating the canvas -->
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="credits">
+                <b>Nirvan Rabbani &nbsp; • &nbsp; Alex Li &nbsp; • &nbsp; Leo Yi</b>
+            </div>
+            <div id="outerline"><div id="innerline"></div></div>
+            <div id="corporation">
+                <b>Duck inc. &nbsp; 2023</b>
+            </div>
+        </div>
+        <!--importing script-->
+        <script src="ISP_GraphingCalculator.js"></script>
+        <script src="canvas.js"></script>
+    </body><!--end of body-->
+    
+</html><!--end of html-->
